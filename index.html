@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+        <title>A-Soft CRM</title>
+        <script src="https://kit.fontawesome.com/1eb6dfa63b.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css" />
+        <link rel="stylesheet" href="./css/styles.css" />
+        <link rel="stylesheet" href="./css/ui-components.css" />
+    </head>
+    <body>
+        <div class="wrapper">
+            <!-- Header -->
+            <header class="header">
+                <div class="logo">
+                    <a href="" class="logo-link link"><span class="logo-accent">A-Soft</span> CRM </a>
+                </div>
+                <div class="header-right">
+                    <ul class="header-actions-list list">
+                        <li class="header-actions-item"><button class="header-actions-button bi-bell" aria-label="Bell"></button></li>
+                        <li class="header-actions-item"><button class="header-actions-button bi-journal-text" aria-label="Journal"></button></li>
+                        <li class="header-actions-item"><button class="header-actions-button bi-gear-wide" aria-label="Gear"></button></li>
+                        <li class="header-actions-item">
+                            <button class="header-actions-button bi-person-circle" aria-label="Person" data-user-menu-button></button>
+                            <ul class="header-user-menu-list list is-hidden" data-user-menu>
+                                <li class="header-user-menu-item"><a href="" class="header-user-menu-link link bi-person-fill">User Profile</a></li>
+                                <li class="header-user-menu-item">
+                                    <a href="" class="header-user-menu-link link bi-box-arrow-right">Signout</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </header>
+            <div class="content-wrapper">
+                <!-- Site nav -->
+                <nav class="nav">
+                    <ul class="nav-list list">
+                        <li class="nav-item">
+                            <a href="" class="nav-link link"><span class="nav-icon bi-speedometer2"></span>Dashboard</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="" class="nav-link link"><span class="nav-icon fa-regular fa-clock"></span>Time tracker</a>
+                        </li>
+                        <li>
+                            <a href="" class="nav-link link"><span class="nav-icon bi-people"></span>Customers</a>
+                        </li>
+                    </ul>
+                </nav>
+
+                <!-- Site page -->
+                <main class="page">
+                    <!-- Page header -->
+                    <div class="page-header">
+                        <div class="fa-solid fa-gauge page-icon"></div>
+                        <div>
+                            <h1 class="page-title">Dashboard</h1>
+                            <p class="page-after-title">Very detailed & featured admin</p>
+                        </div>
+                    </div>
+
+                    <!-- Page content -->
+                    <div class="page-content">
+                        <!-- Panel -->
+                        <div class="panel">
+                            <div class="panel-header">Заголовок панели</div>
+                            <div class="panel-content">
+                                Содержание панели
+                                <button class="button">Default</button>
+                                <button class="button primary">Primary</button>
+                                <button class="button success">Success</button>
+                                <button class="button danger">Danger</button>
+                            </div>
+                            <div class="panel-footer">Подвал панели</div>
+                        </div>
+                        <div class="panel">
+                            <div class="panel-header">Заголовок панели</div>
+                            <div class="panel-content">
+                                <table class="table">
+                                    <thead>
+                                        <th>Description</th>
+                                        <th>Client</th>
+                                        <th>Time start</th>
+                                        <th>Time end</th>
+                                        <th>Total</th>
+                                        <th>Effective</th>
+                                        <th>Actions</th>
+                                    </thead>
+                                    <tbody class="works-list-items">
+                                        <tr>
+                                            <td>А-СОФТ</td>
+                                            <td>01/01/2023</td>
+                                            <td>31/01/2023</td>
+                                            <td>Разработка CRM</td>
+                                            <td>Andrew</td>
+                                            <td class="tasks-status">
+                                                <span class="label">waiting</span>
+                                            </td>
+                                            <td class="actions">
+                                                <button class="action-button success" type="button">
+                                                    <span class="fa-solid fa-pencil"></span>
+                                                </button>
+                                                <button class="action-button danger" type="button">
+                                                    <span class="fa-solid fa-trash-can"></span>
+                                                </button>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Elecomp</td>
+                                            <td>03/01/2023</td>
+                                            <td>04/01/2023</td>
+                                            <td>Загрузка цен на рабочий сайт</td>
+                                            <td>Andrew</td>
+                                            <td class="tasks-status">
+                                                <span class="label primary">submit</span>
+                                            </td>
+                                            <td class="actions">
+                                                <button class="action-button success" type="button">
+                                                    <span class="fa-solid fa-pencil"></span>
+                                                </button>
+                                                <button class="action-button danger" type="button">
+                                                    <span class="fa-solid fa-trash-can"></span>
+                                                </button>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>А-СОФТ</td>
+                                            <td>01/01/2023</td>
+                                            <td>31/01/2023</td>
+                                            <td>Разработка CRM</td>
+                                            <td>Andrew</td>
+                                            <td class="tasks-status">
+                                                <span class="label success">waiting</span>
+                                            </td>
+                                            <td class="actions">
+                                                <button class="action-button success" type="button">
+                                                    <span class="fa-solid fa-pencil"></span>
+                                                </button>
+                                                <button class="action-button danger" type="button">
+                                                    <span class="fa-solid fa-trash-can"></span>
+                                                </button>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Elecomp</td>
+                                            <td>03/01/2023</td>
+                                            <td>04/01/2023</td>
+                                            <td>Загрузка цен на рабочий сайт</td>
+                                            <td>Andrew</td>
+                                            <td class="tasks-status">
+                                                <span class="label info">submit</span>
+                                            </td>
+                                            <td class="actions">
+                                                <button class="action-button success" type="button">
+                                                    <span class="fa-solid fa-pencil"></span>
+                                                </button>
+                                                <button class="action-button danger" type="button">
+                                                    <span class="fa-solid fa-trash-can"></span>
+                                                </button>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>А-СОФТ</td>
+                                            <td>01/01/2023</td>
+                                            <td>31/01/2023</td>
+                                            <td>Разработка CRM</td>
+                                            <td>Andrew</td>
+                                            <td class="tasks-status">
+                                                <span class="label warning">waiting</span>
+                                            </td>
+                                            <td class="actions">
+                                                <button class="action-button success" type="button">
+                                                    <span class="fa-solid fa-pencil"></span>
+                                                </button>
+                                                <button class="action-button danger" type="button">
+                                                    <span class="fa-solid fa-trash-can"></span>
+                                                </button>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Elecomp</td>
+                                            <td>03/01/2023</td>
+                                            <td>04/01/2023</td>
+                                            <td>Загрузка цен на рабочий сайт</td>
+                                            <td>Andrew</td>
+                                            <td class="tasks-status">
+                                                <span class="label danger">submit</span>
+                                            </td>
+                                            <td class="actions">
+                                                <button class="action-button success" type="button">
+                                                    <span class="fa-solid fa-pencil"></span>
+                                                </button>
+                                                <button class="action-button danger" type="button">
+                                                    <span class="fa-solid fa-trash-can"></span>
+                                                </button>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <div class="panel-footer">Тут будет наша пагинация, а может и нет =)</div>
+                        </div>
+                    </div>
+                </main>
+            </div>
+            <footer class="footer">
+                <div class="footer-left"></div>
+                <div class="footer-right">
+                    <p class="footer-text">
+                        <span class="footer-copy">Copyright © 2023 <a href="" class="footer-link link">A-SOFT</a>.</span> All rights reserved.
+                    </p>
+                </div>
+            </footer>
+        </div>
+        <script src="./js/common.js"></script>
+    </body>
+</html>
