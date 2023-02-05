@@ -1,239 +1,158 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
-        <title>A-Soft CRM</title>
-        <script src="https://kit.fontawesome.com/1eb6dfa63b.js" crossorigin="anonymous"></script>
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css" />
-        <link rel="stylesheet" href="./css/styles.css" />
-        <link rel="stylesheet" href="./css/ui-components.css" />
-    </head>
-    <body>
-        <div class="wrapper">
-            <!-- Header -->
-            <header class="header">
-                <div class="logo">
-                    <a href="" class="logo-link link"><span class="logo-accent">A-Soft</span> CRM </a>
-                </div>
-                <div class="header-right">
-                    <ul class="header-actions-list list">
-                        <li class="header-actions-item"><button class="header-actions-button bi-bell" aria-label="Bell"></button></li>
-                        <li class="header-actions-item"><button class="header-actions-button bi-journal-text" aria-label="Journal"></button></li>
-                        <li class="header-actions-item"><button class="header-actions-button bi-gear-wide" aria-label="Gear"></button></li>
-                        <li class="header-actions-item">
-                            <button class="header-actions-button bi-person-circle" aria-label="Person" data-user-menu-button></button>
-                            <ul class="header-user-menu-list list is-hidden" data-user-menu>
-                                <li class="header-user-menu-item"><a href="" class="header-user-menu-link link bi-person-fill">User Profile</a></li>
-                                <li class="header-user-menu-item">
-                                    <a href="" class="header-user-menu-link link bi-box-arrow-right">Signout</a>
-                                </li>
-                            </ul>
-                        </li>
-                    </ul>
-                </div>
-            </header>
-            <div class="content-wrapper">
-                <!-- Site nav -->
-                <nav class="nav">
-                    <ul class="nav-list list">
-                        <li class="nav-item">
-                            <a href="./" class="nav-link link"><span class="nav-icon bi-speedometer2"></span>Dashboard</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="./customers.html" class="nav-link link"><span class="nav-icon fa-regular fa-clock"></span>Time tracker</a>
-                        </li>
-                        <li>
-                            <a href="" class="nav-link link"><span class="nav-icon bi-people"></span>Customers</a>
-                        </li>
-                    </ul>
-                </nav>
 
-                <!-- Site page -->
-                <main class="page">
-                    <!-- Page header -->
-                    <div class="page-header">
-                        <div class="page-icon fa-solid fa-users"></div>
-                        <div>
-                            <h1 class="page-title">Customer</h1>
-                            <p class="page-after-title">Customer List</p>
-                        </div>
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap"
+        rel="stylesheet" />
+    <title>A-Soft CRM</title>
+    <script src="https://kit.fontawesome.com/1eb6dfa63b.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/ui-components.css" />
+</head>
+
+<body>
+    <div class="wrapper">
+        <!-- Header -->
+        <header class="header">
+            <div class="logo">
+                <a href="" class="logo-link link"><span class="logo-accent">A-Soft</span> CRM </a>
+            </div>
+            <div class="header-right">
+                <ul class="header-actions-list list">
+                    <li class="header-actions-item"><button class="header-actions-button bi-bell"
+                            aria-label="Bell"></button></li>
+                    <li class="header-actions-item"><button class="header-actions-button bi-journal-text"
+                            aria-label="Journal"></button></li>
+                    <li class="header-actions-item"><button class="header-actions-button bi-gear-wide"
+                            aria-label="Gear"></button></li>
+                    <li class="header-actions-item">
+                        <button class="header-actions-button bi-person-circle" aria-label="Person"
+                            data-user-menu-button></button>
+                        <ul class="header-user-menu-list list is-hidden" data-user-menu>
+                            <li class="header-user-menu-item"><a href=""
+                                    class="header-user-menu-link link bi-person-fill">User Profile</a></li>
+                            <li class="header-user-menu-item">
+                                <a href="" class="header-user-menu-link link bi-box-arrow-right">Signout</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </header>
+        <div class="content-wrapper">
+            <!-- Site nav -->
+            <nav class="nav">
+                <ul class="nav-list list">
+                    <li class="nav-item">
+                        <a href="./" class="nav-link link"><span class="nav-icon bi-speedometer2"></span>Dashboard</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./customers.html" class="nav-link link"><span
+                                class="nav-icon fa-regular fa-clock"></span>Time tracker</a>
+                    </li>
+                    <li>
+                        <a href="" class="nav-link link"><span class="nav-icon bi-people"></span>Customers</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <!-- Site page -->
+            <main class="page">
+                <!-- Page header -->
+                <div class="page-header">
+                    <div class="page-icon fa-solid fa-users"></div>
+                    <div>
+                        <h1 class="page-title">Customer</h1>
+                        <p class="page-after-title">Customer List</p>
                     </div>
+                </div>
 
-                    <!-- Page content -->
-                    <div class="page-content">
-                        <!-- Panel -->
-                        <div class="panel">
-                            <div class="panel-header">Customer list</div>
-                            <div class="panel-content">
-                                <div class="panel-actions">
-                                    <button class="button success" data-new-customer>New customer</button>
-                                    <form action="" class="panel-search-form">
-                                        <input type="text" class="form-input panel-search-input" placeholder="Search" />
-                                        <button type="submit" class="panel-search-button bi bi-search"></button>
-                                    </form>
-                                </div>
-                                <table class="table">
-                                    <thead>
-                                        <th>Name</th>
-                                        <th>Full name</th>
-                                        <th>Last activity</th>
-                                        <th>Status</th>
-                                        <th>Action</th>
-                                    </thead>
-                                    <tbody class="works-list-items">
-                                        <tr>
-                                            <td>Client 1</td>
-                                            <td>Client for test 1</td>
-                                            <td class="customer-table-activity">01/02/2023</td>
-                                            <td class="customer-table-status">
-                                                <span class="label warning">pending</span>
-                                            </td>
-                                            <td class="customer-table-actions">
-                                                <button class="action-button success" type="button">
-                                                    <span class="fa-solid fa-pencil"></span>
-                                                </button>
-                                                <button class="action-button danger" type="button">
-                                                    <span class="fa-solid fa-trash-can"></span>
-                                                </button>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>Client 2</td>
-                                            <td>Client for test 2</td>
-                                            <td class="customer-table-activity">01/01/2023</td>
-                                            <td class="customer-table-status">
-                                                <span class="label success">active</span>
-                                            </td>
-                                            <td class="customer-table-actions">
-                                                <button class="action-button success" type="button">
-                                                    <span class="fa-solid fa-pencil"></span>
-                                                </button>
-                                                <button class="action-button danger" type="button">
-                                                    <span class="fa-solid fa-trash-can"></span>
-                                                </button>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>Client 3</td>
-                                            <td>Client for test 3</td>
-                                            <td class="customer-table-activity">10/01/2023</td>
-                                            <td class="customer-table-status">
-                                                <span class="label">inactive</span>
-                                            </td>
-                                            <td class="customer-table-actions">
-                                                <button class="action-button success" type="button">
-                                                    <span class="fa-solid fa-pencil"></span>
-                                                </button>
-                                                <button class="action-button danger" type="button">
-                                                    <span class="fa-solid fa-trash-can"></span>
-                                                </button>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>Client 4</td>
-                                            <td>Client for test 4</td>
-                                            <td class="customer-table-activity">25/01/2023</td>
-                                            <td class="customer-table-status">
-                                                <span class="label danger">blocked</span>
-                                            </td>
-                                            <td class="customer-table-actions">
-                                                <button class="action-button success" type="button">
-                                                    <span class="fa-solid fa-pencil"></span>
-                                                </button>
-                                                <button class="action-button danger" type="button">
-                                                    <span class="fa-solid fa-trash-can"></span>
-                                                </button>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>Client 5</td>
-                                            <td>Client for test 5</td>
-                                            <td class="customer-table-activity"></td>
-                                            <td class="customer-table-status">
-                                                <span class="label">inactive</span>
-                                            </td>
-                                            <td class="customer-table-actions">
-                                                <button class="action-button success" type="button">
-                                                    <span class="fa-solid fa-pencil"></span>
-                                                </button>
-                                                <button class="action-button danger" type="button">
-                                                    <span class="fa-solid fa-trash-can"></span>
-                                                </button>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>Client 6</td>
-                                            <td>Client for test 6</td>
-                                            <td class="customer-table-activity">10/01/2023</td>
-                                            <td class="customer-table-status">
-                                                <span class="label success">active</span>
-                                            </td>
-                                            <td class="customer-table-actions">
-                                                <button class="action-button success" type="button">
-                                                    <span class="fa-solid fa-pencil"></span>
-                                                </button>
-                                                <button class="action-button danger" type="button">
-                                                    <span class="fa-solid fa-trash-can"></span>
-                                                </button>
-                                            </td>
-                                        </tr>
-                                    </tbody>
-                                </table>
+                <!-- Page content -->
+                <div class="page-content">
+                    <!-- Panel -->
+                    <div class="panel">
+                        <div class="panel-header">Customer list</div>
+                        <div class="panel-content">
+                            <div class="panel-actions">
+                                <button class="button success" data-new-customer>New customer</button>
+                                <form action="" class="panel-search-form">
+                                    <input type="text" class="form-input panel-search-input" placeholder="Search" />
+                                    <button type="submit" class="panel-search-button bi bi-search"></button>
+                                </form>
                             </div>
-                            <div class="panel-footer"></div>
+                            <table class="table">
+                                <thead>
+                                    <th>Name</th>
+                                    <th>Full name</th>
+                                    <th>E-Mail</th>
+                                    <th>Last activity</th>
+                                    <th>Status</th>
+                                    <th>Action</th>
+                                </thead>
+                                <tbody class="works-list-items" works-list-items>
+
+                                </tbody>
+                            </table>
                         </div>
-                    </div>
-                </main>
-            </div>
-            <footer class="footer">
-                <div class="footer-left"></div>
-                <div class="footer-right">
-                    <p class="footer-text">
-                        <span class="footer-copy">Copyright © 2023 <a href="" class="footer-link link">A-SOFT</a>.</span> All rights reserved.
-                    </p>
-                </div>
-            </footer>
-        </div>
-
-        <!-- Modal -->
-        <div class="backdrop is-hidden" data-backdrop>
-            <div class="modal">
-                <div class="modal-header">
-                    <div class="modal-title">New customer</div>
-                    <button class="modal-close-button bi bi-x" data-close-window-button></button>
-                </div>
-                <div class="modal-content">
-                    <form class="form" name="customerForm" action="">
-                        <label class="form-input-label">
-                            Name
-                            <input name="bame" type="text" class="form-input" placeholder="Enter name" autocomplete="off" />
-                        </label>
-                        <label class="form-input-label">
-                            Full name
-                            <input name="fullName" type="text" class="form-input" placeholder="Enter full name" autocomplete="off" />
-                        </label>
-                        <label class="form-input-label">
-                            E-Mail
-                            <input name="mail" type="mail" class="form-input" placeholder="Enter E-Mail" autocomplete="off" />
-                            <p class="form-input-error"></p>
-                        </label>
-                    </form>
-                </div>
-                <div class="modal-footer">
-                    <div class="modal-actions">
-                        <button class="button danger modal-actions-button" data-close-button>Close</button>
-                        <button class="button success modal-actions-button" data-submit-fosm-button>Save changes</button>
+                        <div class="panel-footer"></div>
                     </div>
                 </div>
+            </main>
+        </div>
+        <footer class="footer">
+            <div class="footer-left"></div>
+            <div class="footer-right">
+                <p class="footer-text">
+                    <span class="footer-copy">Copyright © 2023 <a href="" class="footer-link link">A-SOFT</a>.</span>
+                    All rights reserved.
+                </p>
+            </div>
+        </footer>
+    </div>
+
+    <!-- Modal -->
+    <div class="backdrop is-hidden" data-backdrop>
+        <div class="modal">
+            <div class="modal-header">
+                <div class="modal-title" data-modal-title>New customer</div>
+                <button class="modal-close-button bi bi-x" data-close-window-button></button>
+            </div>
+            <div class="modal-content">
+                <form class="form" name="customerForm" action="">
+                    <label class="form-input-label">
+                        Name
+                        <input name="name" type="text" class="form-input" placeholder="Enter name" autocomplete="off" />
+                    </label>
+                    <label class="form-input-label">
+                        Full name
+                        <input name="fullName" type="text" class="form-input" placeholder="Enter full name"
+                            autocomplete="off" />
+                    </label>
+                    <label class="form-input-label">
+                        E-Mail
+                        <input name="mail" type="mail" class="form-input" placeholder="Enter E-Mail"
+                            autocomplete="off" />
+                        <p class="form-input-error"></p>
+                    </label>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <div class="modal-actions">
+                    <button class="button danger modal-actions-button" data-close-button>Close</button>
+                    <button class="button success modal-actions-button" data-submit-fosm-button>Save changes</button>
+                </div>
             </div>
         </div>
+    </div>
 
-        <script src="./js/common.js"></script>
-        <script src="./js/customers.js"></script>
-    </body>
+    <script src="./js/common.js"></script>
+    <script src="./js/customers.js"></script>
+</body>
+
 </html>
