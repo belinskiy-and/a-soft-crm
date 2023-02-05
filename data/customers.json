@@ -1,0 +1,42 @@
+[
+    {
+        "id": "1",
+        "name": "АТБ",
+        "fullName": "Сеть магазинов АТБ",
+        "mail": "mail@atb.ua",
+        "lastActive": "01/02/2023",
+        "status": "pending"
+    },
+    {
+        "id": "2",
+        "name": "Метінвест",
+        "fullName": "Метінвест",
+        "mail": "press@metinvestholding.com",
+        "lastActive": "01/01/2023",
+        "status": "pending"
+    },
+    {
+        "id": "3",
+        "name": "Kernel",
+        "fullName": "Kernel",
+        "mail": "cv@kernel.ua",  
+        "lastActive": "01/01/2023",
+        "status": "inactive"
+    },
+    {
+        "id": "4",
+        "name": "ДТЕК",
+        "fullName": "ДТЕК",
+        "mail": "pr@dtek.com",  
+        "lastActive": "04/04/2023",
+        "status": "active"
+    },
+    {
+        "id": "5",
+        "name": "Fozzy Group",
+        "fullName": "Fozzy Group",
+        "mail": "cv@kernel.ua",  
+        "lastActive": "04/02/2023",
+        "status": "active"
+    }
+]
